@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=hdevice-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>FILL DETAILS</h1> 
+    <p>created by Manish
+    </p>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        <div>
+            <input type="text" name="myname" id="name">
+        </div>
+        <label for="role">Role:</label>
+        <div>
+            <input type="Role" name="myRole" id="role">
+        </div>
+        <label for="email">Email Id:</label>
+        <div>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <label for="password">Password:</label>
+        <div>
+           <input type="password" name="mypassword" id="password">
+        </div>
+        <label for="date">Date:</label>
+        <div>
+           : <input type="Date" name="myDate" id="date">
+        </div>
+        <label for="check">Are You Sure?:</label>
+        <div>
+            <input type="checkbox" name="mycheck"checked id="check">
+        </div>
+        <label for="male">Male:</label><label for="female">Female:</label>
+        <div>
+           <input type="radio" name="mygender" checked id="male"> <input type="radio" name="mygender" id="female"
+        </div><br>
+        <div>
+            <label for="grade">Grade</label>
+            <select name="Grade" id="grade">
+                <option value="11th">9th</option>
+                <option value="12th"selected>10th</option>
+                <option value="11th">11th</option>
+                <option value="12th">12th</option>
+            </select>
+        </div>
+       Write About Yourself: <br><textarea name="myarea" cols="30" rows="10"></textarea>
+        <div><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+</body>
+
+</html>
